@@ -8,7 +8,3 @@ def encrypt(password, inputstr):
         j+=1
     return res
 
-
-res = (encrypt(password, input()))
-print(res)
-print(encrypt(password, res))
